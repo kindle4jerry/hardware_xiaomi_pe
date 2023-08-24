@@ -3,8 +3,8 @@
 hidl_interface {
     name: "vendor.xiaomi.hardware.touchfeature@1.0",
     root: "vendor.xiaomi",
-    system_ext_specific: true,
     srcs: [
+        "types.hal",
         "ITouchFeature.hal",
     ],
     interfaces: [
